@@ -1,0 +1,39 @@
+--- 
+:h: 
+  :type: :Home
+  :format: 
+  - - :x
+    - :f
+  - - :y
+    - :f
+  - - :r
+    - :f
+:b: 
+  :type: :Boulder
+  :format: 
+  - - :x
+    - :f
+  - - :y
+    - :f
+  - - :r
+    - :f
+:c: 
+  :type: :Crater
+  :format: 
+  - - :x
+    - :f
+  - - :y
+    - :f
+  - - :r
+    - :f
+:m: 
+  :type: :Martian
+  :format: 
+  - - :x
+    - :f
+  - - :y
+    - :f
+  - - :dir
+    - :f
+  - - :speed
+    - :f

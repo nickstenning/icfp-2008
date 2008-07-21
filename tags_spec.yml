@@ -1,0 +1,62 @@
+--- 
+:T: 
+  :type: :telemetry
+  :format: 
+  - - :time_stamp
+    - :i
+  - - :vehicle_ctl
+    - :s
+  - - :vehicle_x
+    - :f
+  - - :vehicle_y
+    - :f
+  - - :vehicle_dir
+    - :f
+  - - :vehicle_speed
+    - :f
+:I: 
+  :type: :initialization
+  :format: 
+  - - :dx
+    - :f
+  - - :dy
+    - :f
+  - - :time_limit
+    - :i
+  - - :min_sensor
+    - :f
+  - - :max_sensor
+    - :f
+  - - :max_speed
+    - :f
+  - - :max_turn
+    - :f
+  - - :max_hard_turn
+    - :f
+:B:
+  :type: :bounce
+  :format: 
+  - - :time_stamp
+    - :i
+:C:
+  :type: :crater
+  :format: 
+  - - :time_stamp
+    - :i
+:K:
+  :type: :kill
+  :format: 
+  - - :time_stamp
+    - :i
+:S:
+  :type: :success
+  :format: 
+  - - :time_stamp
+    - :i
+:E:
+  :type: :end_of_run
+  :format: 
+  - - :time_stamp
+    - :i
+  - - :score
+    - :i
